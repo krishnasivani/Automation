@@ -65,7 +65,7 @@ public class FleetReport extends LoginTest{
 			}
 			ArrayList<String> copiedList1 =new ArrayList<String>(originalList1);
 			Collections.sort(copiedList1,String.CASE_INSENSITIVE_ORDER);
-		//	AssertJUnit.assertTrue(originalList1.equals(copiedList1));
+			AssertJUnit.assertTrue(originalList1.equals(copiedList1));
 			Reporter.log("Sorting of SerialNo is " + originalList1.equals(copiedList1));
 			///////Alias
 			WebElement sort1=table.findElement(By.xpath("//th[2]//span[2]"));
@@ -78,7 +78,7 @@ public class FleetReport extends LoginTest{
 			}
 			ArrayList<String> copiedList2=new ArrayList<String>(originalList2);
 			Collections.sort(copiedList2,String.CASE_INSENSITIVE_ORDER);
-		//	AssertJUnit.assertTrue(originalList2.equals(copiedList2));
+			AssertJUnit.assertTrue(originalList2.equals(copiedList2));
 			Reporter.log("Sorting of Alias is " + originalList2.equals(copiedList2));
 //			/////communicationdate
 			WebElement sort2=table.findElement(By.xpath("//th[3]//span[2]"));
@@ -93,7 +93,7 @@ public class FleetReport extends LoginTest{
 			}
 			ArrayList<String> copiedList3=new ArrayList<String>(originalList3);
 			Collections.sort(copiedList3,String.CASE_INSENSITIVE_ORDER);
-			//AssertJUnit.assertTrue(originalList3.equals(copiedList3));
+			AssertJUnit.assertTrue(originalList3.equals(copiedList3));
 			Reporter.log("Sorting of Last Communication is " + originalList3.equals(copiedList3));
    }
 

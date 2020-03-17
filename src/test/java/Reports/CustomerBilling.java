@@ -53,6 +53,7 @@ public class CustomerBilling extends LoginTest{
 		String ClientsearchText=ClientName;
 		WebDriverWait wait = new WebDriverWait(driver, 30); 
 		By xpath = By.xpath("//div[contains(@class,'ui-dropdown ui-widget ui-state-default ui-corner-all ui-helper-clearfix')]");
+		//wait for element to be clickable, then click
 		WebElement ClientElement = wait.until(ExpectedConditions.elementToBeClickable(xpath));
 		ClientElement.click(); 
 		  List<WebElement> Client = driver.findElements(By.xpath("//div[@class='ui-dropdown-items-wrapper']//ul//li"));

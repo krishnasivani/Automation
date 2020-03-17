@@ -1,7 +1,4 @@
 package Home;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.Test;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import Utilities.ScreenshotUtil;
 import Utilities.LoginTest;
@@ -120,16 +117,6 @@ public class HomePage extends LoginTest{
 		Thread.sleep(1000);
 		 screenshot.ScreenshotFunction(driver, "Dashboard\\FullViewMap\\SatelliteView.png"); 
 		driver.findElement(By.xpath("//span[@class='ui-button-icon-left ui-clickable fa fa-fw fa-close']")).click();		
-	}
-	@AfterClass
-	public void Logout() {
-		WebElement element = driver.findElement(By.xpath("//span[@class='nav-welcome-name']"));
-		WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Logout')]"));
-		JavascriptExecutor executor = (JavascriptExecutor) driver;
-		executor.executeScript("arguments[0].click()", element);
-		executor.executeScript("arguments[0].click()", logout);
-		Reporter.log("Logged Out");
-		driver.close();
 	}
 	
 }

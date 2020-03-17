@@ -13,8 +13,8 @@ public class CSVDownload {
          File[] dirContents = dir.listFiles();
 
          for (int i = 0; i < dirContents.length; i++) {
-             if (dirContents[i].getName().contains(fileName)) {
-            	 Reporter.log(dirContents[i].getName() + "File found");
+             if (dirContents[i].getName().equalsIgnoreCase(fileName)) {
+            	 Reporter.log(fileName + "File found");
                  break;
              }else {
                  Thread.sleep(timeWait);

@@ -1,8 +1,5 @@
 package Home;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
@@ -23,7 +20,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -50,10 +46,10 @@ public class Trips extends LoginTest{
 	//@Parameters({ "From","Device"})
 	@Test(priority=1)
 	public void TripsPage() throws IOException, ParseException, InterruptedException{
+		//Assert.assertTrue(driver.getCurrentUrl().endsWith("#/home/trips"));
 		Thread.sleep(2000);
-		AssertJUnit.assertTrue(driver.getCurrentUrl().endsWith("#/home/trips"));
 		Reporter.log("Trips in Home Page is Accessed");
-		String From="02/18/2020";
+		String From="11/26/2019";
 		String Device="2222221111";		
 	    	WebElement ListBox=driver.findElement(By.xpath("//label[@class='ui-dropdown-label ui-inputtext ui-corner-all']"));
 			ListBox.click();
@@ -126,17 +122,7 @@ public class Trips extends LoginTest{
 		    	 i++;
 		}
 	}
-	
-	@AfterClass
-	public void Logout() {
-		WebElement element = driver.findElement(By.xpath("//span[@class='nav-welcome-name']"));
-		WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Logout')]"));
-		JavascriptExecutor executor = (JavascriptExecutor) driver;
-		executor.executeScript("arguments[0].click()", element);
-		executor.executeScript("arguments[0].click()", logout);
-		Reporter.log("Logged Out");
-		driver.close();
-	}
+
 	public void SelectDay(String Date,String Month) {
 		WebDriverWait wait = new WebDriverWait(driver, 60); 
         By Timexpath= By.xpath("//div[@class='ui-datepicker-title']");
