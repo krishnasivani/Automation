@@ -16,37 +16,34 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class LoginTest extends Connection {
-	
+	// @BeforeTest
 	public void Startup() throws IOException {
 		// Initiate driver
-		 Connection obj = new Connection();
-		driver = obj.intializeDriver("chrome");
-					Reporter.log("Chrome Setup is done");
-					System.out.print("Before test");
-		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-	}
- 
-	public void HomePage() {
-		driver.get("https://vision2test.danlawinc.com/#/account/login");
-					Reporter.log("Vision Test Page is accessed");
-		
-					
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-				Assert.assertEquals("VISION", driver.getTitle());
-					Reporter.log(driver.getTitle() + " is Opened");
+		Connection obj = new Connection();
+		driver = obj.intializeDriver();
+		Reporter.log("Chrome Setup is done");
 	}
 
-	 
+	// @Test
+	public void HomePage() {
+		driver.get("https://vision2test.danlawinc.com/#/account/login");
+		Reporter.log("Vision Test Page is accessed");
+		driver.manage().window().maximize();
+		Reporter.log("Window is maximized");
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		Assert.assertEquals("VISION", driver.getTitle());
+		Reporter.log(driver.getTitle() + " is Opened");
+	}
+
+	// @Test
 	public void Login() {
 		WebElement userID = driver.findElement(By.name("userID"));
-				userID.clear();
-		userID.sendKeys("sanaa");
-					Reporter.log("Send UserId of krishnasivanip");
+		userID.clear();
+		userID.sendKeys("shivanip");
+		Reporter.log("Send UserId of shivanip");
 		WebElement password = driver.findElement(By.name("password"));
 		password.clear();
-		password.sendKeys("Sana1234!");
+		password.sendKeys("Sodium@11");
 		Reporter.log("Send Password of Sodium@11");
 		WebElement Login = driver.findElement(By.xpath("//*[@id=\'loginForm\']/form/div[3]/button"));
 		Login.click();
@@ -80,9 +77,6 @@ public class LoginTest extends Connection {
 		assertTrue(currentURL.contains("#/admin"));
 		return driver;
 	}
-	
-	
-	
 	public WebDriver Reports()  {
 		driver.findElement(By.xpath("//span[contains(text(),'Reports')]")).click(); 
 		Reporter.log("Vision Reports Page is accessed");

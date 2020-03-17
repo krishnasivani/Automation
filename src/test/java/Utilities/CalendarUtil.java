@@ -12,7 +12,6 @@ public class CalendarUtil {
 		 String actualDate = Date;
 		 Date formatter = sdf.parse(actualDate);
 		 String date = day.format(formatter);
-		 System.out.println("Day :" + date);  
        return date;
 	    }
 	public String getMonth(String Date) throws ParseException {
@@ -21,7 +20,7 @@ public class CalendarUtil {
 		 String actualDate = Date;
 		 Date formatter = sdf.parse(actualDate);
 		 String month_name = month_date.format(formatter);
-		 System.out.println("Month :" + month_name);  //Mar 2016
+		// System.out.println("Month :" + month_name);  //Mar 2016
        return month_name;	
     }
 }

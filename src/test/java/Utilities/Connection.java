@@ -11,46 +11,28 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
+
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class Connection {
 
 	public WebDriver driver;
 
-	public WebDriver intializeDriver(String browser) throws IOException
+	public WebDriver intializeDriver() throws IOException
 
 	{
-		
-		if(browser.equalsIgnoreCase("chrome")){
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sanaa\\Desktop\\Vis\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		// Open the Chrome browser
-		driver = new ChromeDriver(ChromeProfile());
-		
-		}//if ends
-		
-		
-		else if (browser.equalsIgnoreCase("firefox")){
-			driver=new FirefoxDriver();
-			
-				
-		}//else ends
+		WebDriver driver = new ChromeDriver();
 
-		return  driver;
-		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+		driver.manage().window().maximize();
+
+		return driver;
+
 	}
-	
-
-	public   ChromeOptions ChromeProfile(){
-		
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-extensions");
-		options.addArguments("--start-maximized");
-		
-		return options;
-	}
-
 
 }

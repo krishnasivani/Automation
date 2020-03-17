@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 public class ScreenshotUtil {
  public void ScreenshotFunction(WebDriver driver,String filename) throws IOException {
 	File scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	    File dest = new File("C:\\Users\\sanaa\\Desktop\\Vis\\"+ filename);
+	    File dest = new File("C:\\JavaSE\\Materials\\TestNG\\ScreenShots\\"+ filename);
 	    FileUtils.copyFile(scr, dest);
  }
 }

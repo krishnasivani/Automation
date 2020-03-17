@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sanaa\AppData\Local\Temp\testng-eclipse--1738789989\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\JavaSE\Materials\TestNG\testngDashboard.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,190 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="ProviderTime">ProviderTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.Trips" class="method navigator-link" hash-for-method="Trip">Trip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Test.otaSetup" hash-for-method="otasetupPg">otasetupPg</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="BinFunctionality(02/18/2020, 2222221111)">BinFunctionality(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataTripsPage" class="method navigator-link" hash-for-method="BinFunctionality(02/18/2020, 2222221111)">BinFunctionality(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="CSVFunctionality(02/18/2020, 2222221111)">CSVFunctionality(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataTripsPage" class="method navigator-link" hash-for-method="CSVFunctionality(02/18/2020, 2222221111)">CSVFunctionality(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="DashboardPage">DashboardPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Data(02/18/2020, 2222221111)">Data(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataTripsPage" class="method navigator-link" hash-for-method="Data(02/18/2020, 2222221111)">Data(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="Data(02/18/2020, 2222221111)">Data(02/18/2020, 2222221111)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Description(DTC)">Description(DTC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="DeviceEvents">DeviceEvents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="DeviceTime">DeviceTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="Driving_behaviour">Driving_behaviour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="FullMap">FullMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="LatestAlerts">LatestAlerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="Map">Map</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="MsgID(240)">MsgID(240)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="PID(12)">PID(12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="PayloadType(D)">PayloadType(D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Periodicity(61)">Periodicity(61)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="Protocol(UDP)">Protocol(UDP)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataTripsPage" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.Trips" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Trips">Trips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataTripsPage" class="method navigator-link" hash-for-method="Trips">Trips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.Trips" class="method navigator-link" hash-for-method="TripsPage">TripsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.VehiclePage" class="method navigator-link" hash-for-method="Units(Bits)">Units(Bits)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.HomePage" class="method navigator-link" hash-for-method="VehicleStatus">VehicleStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Home.DataPage" class="method navigator-link" hash-for-method="VisionTime">VisionTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,122 +285,962 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.otaSetup</span>
+              <img src="failed.png"/>
+              <span class="class-name">Home.Trips</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="otasetupPg">
-                  </a> <!-- otasetupPg -->
-                  <span class="method-name">otasetupPg</span>
+                  <a name="Trip">
+                  </a> <!-- Trip -->
+                  <span class="method-name">Trip</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: UDP
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.84&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at Home.Trips.Trip(Trips.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Home.DataPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProviderTime">
+                  </a> <!-- ProviderTime -->
+                  <span class="method-name">ProviderTime</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at Utilities.SortList.DataSort(SortList.java:23)
+	at Home.DataPage.ProviderTime(DataPage.java:129)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.DataTripsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinFunctionality(02/18/2020, 2222221111)">
+                  </a> <!-- BinFunctionality(02/18/2020, 2222221111) -->
+                  <span class="method-name">BinFunctionality</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CSVFunctionality(02/18/2020, 2222221111)">
+                  </a> <!-- CSVFunctionality(02/18/2020, 2222221111) -->
+                  <span class="method-name">CSVFunctionality</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Data(02/18/2020, 2222221111)">
+                  </a> <!-- Data(02/18/2020, 2222221111) -->
+                  <span class="method-name">Data</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Trips">
+                  </a> <!-- Trips -->
+                  <span class="method-name">Trips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.VehiclePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Data(02/18/2020, 2222221111)">
+                  </a> <!-- Data(02/18/2020, 2222221111) -->
+                  <span class="method-name">Data</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Description(DTC)">
+                  </a> <!-- Description(DTC) -->
+                  <span class="method-name">Description</span>
+                  <span class="parameters">(DTC)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PID(12)">
+                  </a> <!-- PID(12) -->
+                  <span class="method-name">PID</span>
+                  <span class="parameters">(12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Periodicity(61)">
+                  </a> <!-- Periodicity(61) -->
+                  <span class="method-name">Periodicity</span>
+                  <span class="parameters">(61)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Trips">
+                  </a> <!-- Trips -->
+                  <span class="method-name">Trips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Units(Bits)">
+                  </a> <!-- Units(Bits) -->
+                  <span class="method-name">Units</span>
+                  <span class="parameters">(Bits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.Trips</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TripsPage">
+                  </a> <!-- TripsPage -->
+                  <span class="method-name">TripsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.DataPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinFunctionality(02/18/2020, 2222221111)">
+                  </a> <!-- BinFunctionality(02/18/2020, 2222221111) -->
+                  <span class="method-name">BinFunctionality</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CSVFunctionality(02/18/2020, 2222221111)">
+                  </a> <!-- CSVFunctionality(02/18/2020, 2222221111) -->
+                  <span class="method-name">CSVFunctionality</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Data(02/18/2020, 2222221111)">
+                  </a> <!-- Data(02/18/2020, 2222221111) -->
+                  <span class="method-name">Data</span>
+                  <span class="parameters">(02/18/2020, 2222221111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeviceTime">
+                  </a> <!-- DeviceTime -->
+                  <span class="method-name">DeviceTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MsgID(240)">
+                  </a> <!-- MsgID(240) -->
+                  <span class="method-name">MsgID</span>
+                  <span class="parameters">(240)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PayloadType(D)">
+                  </a> <!-- PayloadType(D) -->
+                  <span class="method-name">PayloadType</span>
+                  <span class="parameters">(D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Protocol(UDP)">
+                  </a> <!-- Protocol(UDP) -->
+                  <span class="method-name">Protocol</span>
+                  <span class="parameters">(UDP)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VisionTime">
+                  </a> <!-- VisionTime -->
+                  <span class="method-name">VisionTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Home.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DashboardPage">
+                  </a> <!-- DashboardPage -->
+                  <span class="method-name">DashboardPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeviceEvents">
+                  </a> <!-- DeviceEvents -->
+                  <span class="method-name">DeviceEvents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Driving_behaviour">
+                  </a> <!-- Driving_behaviour -->
+                  <span class="method-name">Driving_behaviour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FullMap">
+                  </a> <!-- FullMap -->
+                  <span class="method-name">FullMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LatestAlerts">
+                  </a> <!-- LatestAlerts -->
+                  <span class="method-name">LatestAlerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Map">
+                  </a> <!-- Map -->
+                  <span class="method-name">Map</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VehicleStatus">
+                  </a> <!-- VehicleStatus -->
+                  <span class="method-name">VehicleStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sanaa\AppData\Local\Temp\testng-eclipse--1738789989\testng-customsuite.xml</span>
+            <span class="header-content">C:\JavaSE\Materials\TestNG\testngDashboard.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.otaSetup&quot;/&gt;
+      &lt;class name=&quot;Home.DataTripsPage&quot;/&gt;
+      &lt;class name=&quot;Home.DataPage&quot;/&gt;
+      &lt;class name=&quot;Home.Trips&quot;/&gt;
+      &lt;class name=&quot;Home.VehiclePage&quot;/&gt;
+      &lt;class name=&quot;Home.HomePage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(33);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'otasetupPg')
-data.setCell(0, 2, 'Test.otaSetup')
-data.setCell(0, 3, 16722);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'Protocol')
+data.setCell(0, 2, 'Home.DataPage')
+data.setCell(0, 3, 34770);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PID')
+data.setCell(1, 2, 'Home.VehiclePage')
+data.setCell(1, 3, 32505);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Description')
+data.setCell(2, 2, 'Home.VehiclePage')
+data.setCell(2, 3, 32470);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Units')
+data.setCell(3, 2, 'Home.VehiclePage')
+data.setCell(3, 3, 31999);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Periodicity')
+data.setCell(4, 2, 'Home.VehiclePage')
+data.setCell(4, 3, 31924);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Trip')
+data.setCell(5, 2, 'Home.Trips')
+data.setCell(5, 3, 31476);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BinFunctionality')
+data.setCell(6, 2, 'Home.DataPage')
+data.setCell(6, 3, 13857);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BinFunctionality')
+data.setCell(7, 2, 'Home.DataTripsPage')
+data.setCell(7, 3, 13438);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CSVFunctionality')
+data.setCell(8, 2, 'Home.DataPage')
+data.setCell(8, 3, 11370);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CSVFunctionality')
+data.setCell(9, 2, 'Home.DataTripsPage')
+data.setCell(9, 3, 11363);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test')
+data.setCell(10, 2, 'Home.DataTripsPage')
+data.setCell(10, 3, 10981);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test')
+data.setCell(11, 2, 'Home.DataPage')
+data.setCell(11, 3, 10693);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Test')
+data.setCell(12, 2, 'Home.VehiclePage')
+data.setCell(12, 3, 10459);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test')
+data.setCell(13, 2, 'Home.HomePage')
+data.setCell(13, 3, 10442);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Test')
+data.setCell(14, 2, 'Home.Trips')
+data.setCell(14, 3, 10406);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'FullMap')
+data.setCell(15, 2, 'Home.HomePage')
+data.setCell(15, 3, 8277);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TripsPage')
+data.setCell(16, 2, 'Home.Trips')
+data.setCell(16, 3, 6809);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Map')
+data.setCell(17, 2, 'Home.HomePage')
+data.setCell(17, 3, 6593);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'MsgID')
+data.setCell(18, 2, 'Home.DataPage')
+data.setCell(18, 3, 4952);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Data')
+data.setCell(19, 2, 'Home.VehiclePage')
+data.setCell(19, 3, 4151);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Data')
+data.setCell(20, 2, 'Home.DataPage')
+data.setCell(20, 3, 4012);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Data')
+data.setCell(21, 2, 'Home.DataTripsPage')
+data.setCell(21, 3, 3665);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VisionTime')
+data.setCell(22, 2, 'Home.DataPage')
+data.setCell(22, 3, 2738);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ProviderTime')
+data.setCell(23, 2, 'Home.DataPage')
+data.setCell(23, 3, 2730);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'DeviceTime')
+data.setCell(24, 2, 'Home.DataPage')
+data.setCell(24, 3, 2638);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'DashboardPage')
+data.setCell(25, 2, 'Home.HomePage')
+data.setCell(25, 3, 2419);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'PayloadType')
+data.setCell(26, 2, 'Home.DataPage')
+data.setCell(26, 3, 1890);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Trips')
+data.setCell(27, 2, 'Home.DataTripsPage')
+data.setCell(27, 3, 1364);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Trips')
+data.setCell(28, 2, 'Home.VehiclePage')
+data.setCell(28, 3, 1211);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'LatestAlerts')
+data.setCell(29, 2, 'Home.HomePage')
+data.setCell(29, 3, 474);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Driving_behaviour')
+data.setCell(30, 2, 'Home.HomePage')
+data.setCell(30, 3, 316);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'DeviceEvents')
+data.setCell(31, 2, 'Home.HomePage')
+data.setCell(31, 3, 313);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'VehicleStatus')
+data.setCell(32, 2, 'Home.HomePage')
+data.setCell(32, 3, 275);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TripsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trips in Home Page is Accessed</span>
+                <span class="reporter-method-output">Shivanis Device is Selected</span>
+                <span class="reporter-method-output">02/18/2020 Calendar Date is selected</span>
+                <span class="reporter-method-output">256 records retrieved.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CSVFunctionality(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">messages2222221111_1582146933848.csvFile found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LatestAlerts</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LATEST ALERTS is Opened</span>
+                <span class="reporter-method-output">You Have No Alerts To View</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Chrome Setup is done</span>
+                <span class="reporter-method-output">Vision Test Page is accessed</span>
+                <span class="reporter-method-output">Window is maximized</span>
+                <span class="reporter-method-output">VISION is Opened</span>
+                <span class="reporter-method-output">Send UserId of shivanip</span>
+                <span class="reporter-method-output">Send Password of Sodium@11</span>
+                <span class="reporter-method-output">Login Clicked</span>
+                <span class="reporter-method-output">Successful Login.VISION HomePage entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Periodicity(61)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching of Description 61-No Records Found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VehicleStatus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> is Opened</span>
+                <span class="reporter-method-output"></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Data(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Shivanis Device is Selected</span>
+                <span class="reporter-method-output">02/18/2020 Calendar Date is Selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DeviceEvents</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> is Opened</span>
+                <span class="reporter-method-output"></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Data(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Shivanis Device is Selected</span>
+                <span class="reporter-method-output">02/18/2020 Calendar Date is Selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Chrome Setup is done</span>
+                <span class="reporter-method-output">Vision Test Page is accessed</span>
+                <span class="reporter-method-output">Window is maximized</span>
+                <span class="reporter-method-output">VISION is Opened</span>
+                <span class="reporter-method-output">Send UserId of shivanip</span>
+                <span class="reporter-method-output">Send Password of Sodium@11</span>
+                <span class="reporter-method-output">Login Clicked</span>
+                <span class="reporter-method-output">Successful Login.VISION HomePage entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PID(12)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching of PID 12 is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Description(DTC)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching of Description DTC is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Driving_behaviour</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> is Opened</span>
+                <span class="reporter-method-output"></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BinFunctionality(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">packets2222221111_1582146950660.csvFile found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Chrome Setup is done</span>
+                <span class="reporter-method-output">Vision Test Page is accessed</span>
+                <span class="reporter-method-output">Window is maximized</span>
+                <span class="reporter-method-output">VISION is Opened</span>
+                <span class="reporter-method-output">Send UserId of shivanip</span>
+                <span class="reporter-method-output">Send Password of Sodium@11</span>
+                <span class="reporter-method-output">Login Clicked</span>
+                <span class="reporter-method-output">Successful Login.VISION HomePage entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Units(Bits)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching of Units Bits-No Records Found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Protocol(UDP)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sorting of Protocol is true</span>
+                <span class="reporter-method-output">Searching of Protocol UDP is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VisionTime</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sorting of DeviceTime is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">BinFunctionality(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">packets2222221111_1582146950660.csvFile found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Trips</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Trips Found</span>
+                <span class="reporter-method-output">Trip Number 13</span>
+                <span class="reporter-method-output">Trip Duration Time 1
+11:08 AM EST 11:12 AM EST</span>
+                <span class="reporter-method-output">Trip Number 14</span>
+                <span class="reporter-method-output">Trip Duration Time 2
+11:21 AM EST 11:24 AM EST</span>
+                <span class="reporter-method-output">Trip Number 15</span>
+                <span class="reporter-method-output">Trip Duration Time 3
+11:30 AM EST 11:34 AM EST</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PayloadType(D)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searching of Payload Type of  D is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Chrome Setup is done</span>
+                <span class="reporter-method-output">Vision Test Page is accessed</span>
+                <span class="reporter-method-output">Window is maximized</span>
+                <span class="reporter-method-output">VISION is Opened</span>
+                <span class="reporter-method-output">Send UserId of shivanip</span>
+                <span class="reporter-method-output">Send Password of Sodium@11</span>
+                <span class="reporter-method-output">Login Clicked</span>
+                <span class="reporter-method-output">Successful Login.VISION HomePage entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MsgID(240)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sorting of MsgID is true</span>
+                <span class="reporter-method-output">Searching of MsgID 240 is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Trips</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trip Number 13</span>
+                <span class="reporter-method-output">Trip Duration Time 1
+11:08 AM EST 11:12 AM EST</span>
+                <span class="reporter-method-output">Trip Number 14</span>
+                <span class="reporter-method-output">Trip Duration Time 2
+11:21 AM EST 11:24 AM EST</span>
+                <span class="reporter-method-output">Trip Number 15</span>
+                <span class="reporter-method-output">Trip Duration Time 3
+11:30 AM EST 11:34 AM EST</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Chrome Setup is done</span>
+                <span class="reporter-method-output">Vision Test Page is accessed</span>
+                <span class="reporter-method-output">Window is maximized</span>
+                <span class="reporter-method-output">VISION is Opened</span>
+                <span class="reporter-method-output">Send UserId of shivanip</span>
+                <span class="reporter-method-output">Send Password of Sodium@11</span>
+                <span class="reporter-method-output">Login Clicked</span>
+                <span class="reporter-method-output">Successful Login.VISION HomePage entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DashboardPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">0095_mojis Selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DeviceTime</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sorting of DeviceTime is true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Data(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Shivanis Device is Selected</span>
+                <span class="reporter-method-output">02/18/2020 Calendar Date is Selected</span>
+                <span class="reporter-method-output">All Tab is Selected</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CSVFunctionality(02/18/2020, 2222221111)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">messages2222221111_1582146933848.csvFile found</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Trip</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Total Trips :  3</span>
+                <span class="reporter-method-output">Trip Number 13</span>
+                <span class="reporter-method-output">Trip Start Time 11:08 AM EST</span>
+                <span class="reporter-method-output">Trip End Time 11:12 AM EST</span>
+                <span class="reporter-method-output">Trip Distance 22 miles</span>
+                <span class="reporter-method-output">Trip Events 0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.otaSetup</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">intialize</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              <div class="chronological-class-name">Home.DataTripsPage</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">otasetupPg</span>
-                <span class="method-start">21682 ms</span>
+                <span class="method-name">Test</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">closingTest</span>
-                <span class="method-start">38424 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">Data(02/18/2020, 2222221111)</span>
+                <span class="method-start">11529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Trips</span>
+                <span class="method-start">15196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CSVFunctionality(02/18/2020, 2222221111)</span>
+                <span class="method-start">16582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BinFunctionality(02/18/2020, 2222221111)</span>
+                <span class="method-start">27964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">41406 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.DataPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test</span>
+                <span class="method-start">43724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Data(02/18/2020, 2222221111)</span>
+                <span class="method-start">54443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MsgID(240)</span>
+                <span class="method-start">58482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Protocol(UDP)</span>
+                <span class="method-start">63470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeviceTime</span>
+                <span class="method-start">98243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ProviderTime</span>
+                <span class="method-start">100884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VisionTime</span>
+                <span class="method-start">103622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PayloadType(D)</span>
+                <span class="method-start">106400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CSVFunctionality(02/18/2020, 2222221111)</span>
+                <span class="method-start">108301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BinFunctionality(02/18/2020, 2222221111)</span>
+                <span class="method-start">119684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">133543 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.Trips</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test</span>
+                <span class="method-start">135945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TripsPage</span>
+                <span class="method-start">146352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Trip</span>
+                <span class="method-start">153162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">184640 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.VehiclePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test</span>
+                <span class="method-start">184875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Data(02/18/2020, 2222221111)</span>
+                <span class="method-start">195349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Trips</span>
+                <span class="method-start">199501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PID(12)</span>
+                <span class="method-start">200723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Description(DTC)</span>
+                <span class="method-start">233263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Units(Bits)</span>
+                <span class="method-start">265756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Periodicity(61)</span>
+                <span class="method-start">297787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">329713 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Home.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test</span>
+                <span class="method-start">330024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DashboardPage</span>
+                <span class="method-start">340467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LatestAlerts</span>
+                <span class="method-start">342887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VehicleStatus</span>
+                <span class="method-start">343362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeviceEvents</span>
+                <span class="method-start">343638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Driving_behaviour</span>
+                <span class="method-start">343952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FullMap</span>
+                <span class="method-start">344268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Map</span>
+                <span class="method-start">352546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">359139 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

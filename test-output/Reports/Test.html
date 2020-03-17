@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/11/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 13 16:48:59 EST 2020</td>
+<td>Started on:</td><td>Wed Feb 19 15:56:20 EST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>106 seconds (106923 ms)</td>
+<tr><td>Total time:</td><td>173 seconds (173023 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,444 +75,51 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Reports.SummaryReport.BATTERY_HEALTH()'><b>BATTERY_HEALTH</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.BATTERY_HEALTH(SummaryReport.java:234)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2115087165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2115087165'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.BATTERY_HEALTH(SummaryReport.java:234)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.FleetReport.ColumnSort()'><b>ColumnSort</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-1662912171" onClick='toggleBox("Output-1662912171", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1662912171" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1662912171">
-Sorting of SerialNo is true<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: 
-	at Reports.FleetReport.ColumnSort(FleetReport.java:86)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1662912171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1662912171'><pre>java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:20)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:26)
-	at Reports.FleetReport.ColumnSort(FleetReport.java:86)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
-<tr>
-<td title='Reports.SummaryReport.DaysBehindWheel()'><b>DaysBehindWheel</b><br>Test class: Reports.SummaryReport<br/>
-<a href="#Output-1987354705" onClick='toggleBox("Output-1987354705", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1987354705" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1987354705">
-DAYS BEHIND THE WHEEL is Opened<br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError: 
-	at Reports.SummaryReport.DaysBehindWheel(SummaryReport.java:82)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1987354705", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1987354705'><pre>java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:20)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:26)
-	at Reports.SummaryReport.DaysBehindWheel(SummaryReport.java:82)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>2</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.Diagnostic_Trouble_Code()'><b>Diagnostic_Trouble_Code</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 268). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Diagnostic_Trouble_Code(SummaryReport.java:355)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670283478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace670283478'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 268). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Diagnostic_Trouble_Code(SummaryReport.java:355)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.HARD_BRAKING_EVENTS()'><b>HARD_BRAKING_EVENTS</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (340, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.HARD_BRAKING_EVENTS(SummaryReport.java:273)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1688310330", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1688310330'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (340, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.HARD_BRAKING_EVENTS(SummaryReport.java:273)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.Hard_Acceleration_Events()'><b>Hard_Acceleration_Events</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 457). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Hard_Acceleration_Events(SummaryReport.java:396)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace332244937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace332244937'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 457). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Hard_Acceleration_Events(SummaryReport.java:396)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
 <td title='Reports.LogReports.Logs()'><b>Logs</b><br>Test class: Reports.LogReports<br>Parameters: V2X, v2x, Health V2X, 11/05/2019, 1/13/2020<br/>
-<a href="#Output-770669178" onClick='toggleBox("Output-770669178", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1387293679" onClick='toggleBox("Output-1387293679", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-770669178" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-770669178">
+<a href="#Output-1387293679" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1387293679">
 Selected V2X Appcode from Dropdown <br/>
-11/05/2019 From Date is selected<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 057d2e408138e806f8f7de975e91a0c8
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at Reports.LogReports.SelectDay(LogReports.java:158)
-	at Reports.LogReports.Logs(LogReports.java:108)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class=&apos;ui-datepicker-title&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Reports.LogReports.SelectDay(LogReports.java:150)
+	at Reports.LogReports.Logs(LogReports.java:100)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace770669178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace770669178'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui-datepicker-title&apos;]&quot;}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.32&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 057d2e408138e806f8f7de975e91a0c8
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 26f936a0ca6b40787ca364e26a3dec1d
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui-datepicker-title&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
-	at Reports.LogReports.SelectDay(LogReports.java:158)
-	at Reports.LogReports.Logs(LogReports.java:108)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 30 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1387293679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387293679'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class=&apos;ui-datepicker-title&apos;] (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Reports.LogReports.SelectDay(LogReports.java:150)
+	at Reports.LogReports.Logs(LogReports.java:100)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -541,36 +148,15 @@ Session ID: 057d2e408138e806f8f7de975e91a0c8
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>33</td>
-<td>Reports.LogReports@3967e60c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.LongestTrip()'><b>LongestTrip</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 436). Other element would receive the click: &lt;span style=&quot;margin-left:23px&quot;&gt;...&lt;/span&gt;
-  (Session info: chrome=79.0.3945.117)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui-datepicker-title&apos;]&quot;}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.32&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.LongestTrip(SummaryReport.java:105)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4181455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace4181455'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 436). Other element would receive the click: &lt;span style=&quot;margin-left:23px&quot;&gt;...&lt;/span&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 26f936a0ca6b40787ca364e26a3dec1d
+*** Element info: {Using=xpath, value=//div[@class=&apos;ui-datepicker-title&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -582,256 +168,19 @@ Session ID: 6bc6a24c002a061b54c8db51b42e2a13
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.LongestTrip(SummaryReport.java:105)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 30 more
 </pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.SpeedingEvents()'><b>SpeedingEvents</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.SpeedingEvents(SummaryReport.java:158)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1424497441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1424497441'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.SpeedingEvents(SummaryReport.java:158)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.TOTAL_MILES_DRIVEN()'><b>TOTAL_MILES_DRIVEN</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.TOTAL_MILES_DRIVEN(SummaryReport.java:196)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22040992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace22040992'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (503, 551). Other element would receive the click: &lt;div role=&quot;dialog&quot; class=&quot;ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-dialog-draggable&quot; ng-reflect-ng-class=&quot;[object Object]&quot; ng-reflect-ng-style=&quot;[object Object]&quot; style=&quot;min-height: 700px; display: block; width: 600px; min-width: 150px; z-index: 1006; left: 340px; top: 0px; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.TOTAL_MILES_DRIVEN(SummaryReport.java:196)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
-<tr>
-<td title='Reports.SummaryReport.Vehicle_Location()'><b>Vehicle_Location</b><br>Test class: Reports.SummaryReport</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 79). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Vehicle_Location(SummaryReport.java:312)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace468776694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace468776694'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a style=&quot;cursor:pointer&quot;&gt;...&lt;/a&gt; is not clickable at point (1177, 79). Other element would receive the click: &lt;div class=&quot;ui-widget-overlay ui-dialog-mask&quot; style=&quot;z-index: 1004;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=79.0.3945.117)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NBDLH6PY3H2&apos;, ip: &apos;10.105.40.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\KRISHN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bc6a24c002a061b54c8db51b42e2a13
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at Reports.SummaryReport.Vehicle_Location(SummaryReport.java:312)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
+<td>61</td>
+<td>Reports.LogReports@60d8c9b7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -842,67 +191,122 @@ Session ID: 6bc6a24c002a061b54c8db51b42e2a13
 </tr>
 <tr>
 <td title='Reports.FleetReport.AliasSearch()'><b>AliasSearch</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-144699438" onClick='toggleBox("Output-144699438", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1878992188" onClick='toggleBox("Output-1878992188", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-144699438" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-144699438">
-UDP ping Test Alias is Searched<br/>
+<a href="#Output-1878992188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1878992188">
+Bhanusree Test Device Alias is Searched<br/>
 Alias Search : true<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
+<td>Reports.FleetReport@3cc2931c</td></tr>
 <tr>
-<td title='Reports.CustomerBilling.Customer()'><b>Customer</b><br>Test class: Reports.CustomerBilling<br>Parameters: V2XProd, 11/30/2019, 12/2/2019<br/>
-<a href="#Output-1266435158" onClick='toggleBox("Output-1266435158", this, "Show output", "Hide output");'>Show output</a>
+<td title='Reports.SummaryReport.BATTERY_HEALTH()'><b>BATTERY_HEALTH</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-559998250" onClick='toggleBox("Output-559998250", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1266435158" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1266435158">
+<a href="#Output-559998250" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-559998250">
+BATTERY HEALTH is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of BatteryHealth is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
+<tr>
+<td title='Reports.FleetReport.ColumnSort()'><b>ColumnSort</b><br>Test class: Reports.FleetReport<br/>
+<a href="#Output-418513504" onClick='toggleBox("Output-418513504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-418513504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-418513504">
+Sorting of SerialNo is false<br/>
+Sorting of Alias is false<br/>
+Sorting of Last Communication is false<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Reports.FleetReport@3cc2931c</td></tr>
+<tr>
+<td title='Reports.CustomerBilling.Customer()'><b>Customer</b><br>Test class: Reports.CustomerBilling<br>Parameters: V2XProd, 11/30/2019, 1/10/2020<br/>
+<a href="#Output-2013613908" onClick='toggleBox("Output-2013613908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2013613908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2013613908">
 Customer Billing Page is Accessed<br/>
 V2XProd is Selected<br/>
 11/30/2019 From Date is selected<br/>
-12/2/2019 To Date is selected<br/>
-Customer Billing Report.csvFile found<br/>
+1/10/2020 To Date is selected<br/>
 Download Report is Clicked<br/>
 Clear Button is Clicked<br/>
 </div>
 </td>
 <td></td>
-<td>7</td>
-<td>Reports.CustomerBilling@20d28811</td></tr>
+<td>27</td>
+<td>Reports.CustomerBilling@3967e60c</td></tr>
 <tr>
 <td title='Reports.FleetReport.DateSearch()'><b>DateSearch</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-1562764987" onClick='toggleBox("Output-1562764987", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1442038800" onClick='toggleBox("Output-1442038800", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1562764987" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1562764987">
-(03/25/2019 03:50 PM) Date is Searched<br/>
+<a href="#Output-1442038800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442038800">
+(12/31/1969 07:05 PM) Date is Searched<br/>
 Date Search : false<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
+<td>Reports.FleetReport@3cc2931c</td></tr>
+<tr>
+<td title='Reports.SummaryReport.DaysBehindWheel()'><b>DaysBehindWheel</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-828241083" onClick='toggleBox("Output-828241083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-828241083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-828241083">
+DAYS BEHIND THE WHEEL is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of DaysBehindWheel is true<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
 <tr>
 <td title='Reports.FleetReport.DeviceSearch()'><b>DeviceSearch</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-1971152916" onClick='toggleBox("Output-1971152916", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-901689694" onClick='toggleBox("Output-901689694", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1971152916" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1971152916">
-6112161084 SerialNo is Searched<br/>
+<a href="#Output-901689694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-901689694">
+6112963249 SerialNo is Searched<br/>
 Device Search : true<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
+<td>Reports.FleetReport@3cc2931c</td></tr>
+<tr>
+<td title='Reports.SummaryReport.Diagnostic_Trouble_Code()'><b>Diagnostic_Trouble_Code</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-9843062" onClick='toggleBox("Output-9843062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9843062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9843062">
+DIAGNOSTIC TROUBLE CODES is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Vehicle_Location is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
 <tr>
 <td title='Reports.FleetReport.FleetReports()'><b>FleetReports</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-593768538" onClick='toggleBox("Output-593768538", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1821100643" onClick='toggleBox("Output-1821100643", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-593768538" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-593768538">
+<a href="#Output-1821100643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821100643">
 Danlaw Gen 2.5 is Selected. 
 0/0 vehicles are shown on map.<br/>
 Selected Danlaw Gen 2.5 Client from Dropdown <br/>
@@ -910,30 +314,100 @@ Selected Danlaw Gen 2.5 Client from Dropdown <br/>
 </td>
 <td></td>
 <td>2</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
+<td>Reports.FleetReport@3cc2931c</td></tr>
+<tr>
+<td title='Reports.SummaryReport.HARD_BRAKING_EVENTS()'><b>HARD_BRAKING_EVENTS</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-385784873" onClick='toggleBox("Output-385784873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-385784873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-385784873">
+HARD BRAKING EVENTS is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Hard Braking Events is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
+<tr>
+<td title='Reports.SummaryReport.Hard_Acceleration_Events()'><b>Hard_Acceleration_Events</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-648972298" onClick='toggleBox("Output-648972298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-648972298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-648972298">
+HARD ACCELERATION EVENTS is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Hard Braking Events is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
+<tr>
+<td title='Reports.SummaryReport.LongestTrip()'><b>LongestTrip</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-821342630" onClick='toggleBox("Output-821342630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821342630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821342630">
+LONGEST TRIP is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Longest is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
+<tr>
+<td title='Reports.SummaryReport.SpeedingEvents()'><b>SpeedingEvents</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-1811942924" onClick='toggleBox("Output-1811942924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1811942924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1811942924">
+SPEEDING EVENTS is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Speeding Events is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
 <tr>
 <td title='Reports.SummaryReport.SummaryReports()'><b>SummaryReports</b><br>Test class: Reports.SummaryReport<br/>
-<a href="#Output-80756779" onClick='toggleBox("Output-80756779", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-275754769" onClick='toggleBox("Output-275754769", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-80756779" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-80756779">
+<a href="#Output-275754769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275754769">
 Selected Danlaw Gen 2.5 Client from Dropdown <br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
+<td>Reports.SummaryReport@20d28811</td></tr>
+<tr>
+<td title='Reports.SummaryReport.TOTAL_MILES_DRIVEN()'><b>TOTAL_MILES_DRIVEN</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-1466413743" onClick='toggleBox("Output-1466413743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1466413743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1466413743">
+TOTAL MILES DRIVEN is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Miles Driven is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
 <tr>
 <td title='Reports.FleetReport.Test()'><b>Test</b><br>Test class: Reports.FleetReport<br/>
-<a href="#Output-1447353473" onClick='toggleBox("Output-1447353473", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-824881806" onClick='toggleBox("Output-824881806", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1447353473" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1447353473">
+<a href="#Output-824881806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-824881806">
 Chrome Setup is done<br/>
 Vision Test Page is accessed<br/>
 Window is maximized<br/>
 VISION is Opened<br/>
-Send UserId of krishnasivanip<br/>
+Send UserId of shivanip<br/>
 Send Password of Sodium@11<br/>
 Login Clicked<br/>
 Successful Login.VISION HomePage entered<br/>
@@ -942,18 +416,18 @@ Vision Reports Page is accessed<br/>
 </td>
 <td></td>
 <td>12</td>
-<td>Reports.FleetReport@59d016c9</td></tr>
+<td>Reports.FleetReport@3cc2931c</td></tr>
 <tr>
 <td title='Reports.SummaryReport.Test()'><b>Test</b><br>Test class: Reports.SummaryReport<br/>
-<a href="#Output-1091107430" onClick='toggleBox("Output-1091107430", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-201392112" onClick='toggleBox("Output-201392112", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1091107430" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1091107430">
+<a href="#Output-201392112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201392112">
 Chrome Setup is done<br/>
 Vision Test Page is accessed<br/>
 Window is maximized<br/>
 VISION is Opened<br/>
-Send UserId of krishnasivanip<br/>
+Send UserId of shivanip<br/>
 Send Password of Sodium@11<br/>
 Login Clicked<br/>
 Successful Login.VISION HomePage entered<br/>
@@ -962,18 +436,18 @@ Vision Reports Page is accessed<br/>
 </td>
 <td></td>
 <td>11</td>
-<td>Reports.SummaryReport@3cc2931c</td></tr>
+<td>Reports.SummaryReport@20d28811</td></tr>
 <tr>
 <td title='Reports.CustomerBilling.Test()'><b>Test</b><br>Test class: Reports.CustomerBilling<br/>
-<a href="#Output-1974606907" onClick='toggleBox("Output-1974606907", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1723518396" onClick='toggleBox("Output-1723518396", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1974606907" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1974606907">
+<a href="#Output-1723518396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1723518396">
 Chrome Setup is done<br/>
 Vision Test Page is accessed<br/>
 Window is maximized<br/>
 VISION is Opened<br/>
-Send UserId of krishnasivanip<br/>
+Send UserId of shivanip<br/>
 Send Password of Sodium@11<br/>
 Login Clicked<br/>
 Successful Login.VISION HomePage entered<br/>
@@ -982,18 +456,18 @@ Vision Reports Page is accessed<br/>
 </td>
 <td></td>
 <td>12</td>
-<td>Reports.CustomerBilling@20d28811</td></tr>
+<td>Reports.CustomerBilling@3967e60c</td></tr>
 <tr>
 <td title='Reports.LogReports.Test()'><b>Test</b><br>Test class: Reports.LogReports<br/>
-<a href="#Output-1151772302" onClick='toggleBox("Output-1151772302", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-203854885" onClick='toggleBox("Output-203854885", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1151772302" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1151772302">
+<a href="#Output-203854885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203854885">
 Chrome Setup is done<br/>
 Vision Test Page is accessed<br/>
 Window is maximized<br/>
 VISION is Opened<br/>
-Send UserId of krishnasivanip<br/>
+Send UserId of shivanip<br/>
 Send Password of Sodium@11<br/>
 Login Clicked<br/>
 Successful Login.VISION HomePage entered<br/>
@@ -1002,7 +476,21 @@ Vision Reports Page is accessed<br/>
 </td>
 <td></td>
 <td>12</td>
-<td>Reports.LogReports@3967e60c</td></tr>
+<td>Reports.LogReports@60d8c9b7</td></tr>
+<tr>
+<td title='Reports.SummaryReport.Vehicle_Location()'><b>Vehicle_Location</b><br>Test class: Reports.SummaryReport<br/>
+<a href="#Output-807986446" onClick='toggleBox("Output-807986446", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807986446" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807986446">
+VEHICLE LOCATION is Opened<br/>
+Sorting of Vehicle is false<br/>
+Sorting of Vehicle_Location is true<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Reports.SummaryReport@20d28811</td></tr>
 </table><p>
 </body>
 </html>
